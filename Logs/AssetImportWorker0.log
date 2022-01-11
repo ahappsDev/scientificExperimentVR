@@ -1,0 +1,1127 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.10f1 (297d780c91bc) revision 2719096'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19041.1415; Version 2004; 64bit' Language: 'es' Physical Memory: 15733 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/adria/Documents/Projects/MasterUtad/SolucionesVR_projects/scientificExperiment
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60282
+Successfully changed project path to: C:/Users/adria/Documents/Projects/MasterUtad/SolucionesVR_projects/scientificExperiment
+C:/Users/adria/Documents/Projects/MasterUtad/SolucionesVR_projects/scientificExperiment
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 93.04 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 1.24 ms.
+Initialize engine version: 2020.3.10f1 (297d780c91bc)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/adria/Documents/Projects/MasterUtad/SolucionesVR_projects/scientificExperiment/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c91)
+    Vendor:   
+    VRAM:     2996 MB
+    Driver:   27.21.14.6280
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56504
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001768 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 84.51 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.38 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.186 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007227 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 82.89 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\adria\Documents\Projects\MasterUtad\SolucionesVR_projects\scientificExperiment\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\adria\Documents\Projects\MasterUtad\SolucionesVR_projects\scientificExperiment\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.778 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.54 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.36 ms.
+Unloading 3502 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.8 MB.
+System memory in use after: 155.0 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3943.
+Total: 6.711900 ms (FindLiveObjects: 1.418000 ms CreateObjectMapping: 0.351400 ms MarkObjects: 4.706000 ms  DeleteObjects: 0.231800 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/_Project/Materials/Interactables/blowerMaterial.mat
+  artifactKey: Guid(725c73bfe0b052b45873eaad8c681a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Materials/Interactables/blowerMaterial.mat using Guid(725c73bfe0b052b45873eaad8c681a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b63ceeebbcb49fa16d435a6e44a9bc98') in 0.371141 seconds
+  Import took 0.383240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000426 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8def49f52d5ad5b44bd56644af58e84') in 0.143690 seconds
+  Import took 0.155545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000445 seconds.
+  path: Assets/_Project/Materials/Objects/metalSimple.mat
+  artifactKey: Guid(7b8c13254d9990d46a45a00f0b9b6db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Materials/Objects/metalSimple.mat using Guid(7b8c13254d9990d46a45a00f0b9b6db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e520254b1c141d85135ad595ec7524b') in 0.029423 seconds
+  Import took 0.040665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000566 seconds.
+  path: Assets/ThirdParty/_HandPoser/Materials/White.mat
+  artifactKey: Guid(9e61b04bcca72f1419dc72a2d801a51d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/_HandPoser/Materials/White.mat using Guid(9e61b04bcca72f1419dc72a2d801a51d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3620740f209371a3a0b27392d2ed5ee5') in 0.045313 seconds
+  Import took 0.058368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/ThirdParty/_HandPoser/Materials/Pink.mat
+  artifactKey: Guid(40e6c80bc0db5044484bc0d6a5e315fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/_HandPoser/Materials/Pink.mat using Guid(40e6c80bc0db5044484bc0d6a5e315fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e57491f927c835e30d1f3078588eede') in 0.041781 seconds
+  Import took 0.053256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000846 seconds.
+  path: Assets/_Project/Materials/Environmet/Floor/floor.mat
+  artifactKey: Guid(3ecbf2adb07b52c459fd2ce0c55e3141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Materials/Environmet/Floor/floor.mat using Guid(3ecbf2adb07b52c459fd2ce0c55e3141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b22468fc2418c991dd55e2ffd9e15b74') in 0.055086 seconds
+  Import took 0.067512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f74732fef8337c4289bf15f60d5bebfe') in 0.073359 seconds
+  Import took 0.083919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38d6c4b1a2d5991c9daff1cb8487881f') in 0.039465 seconds
+  Import took 0.050535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000695 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53a1aa266b68ce258856fed1c8464f17') in 0.100235 seconds
+  Import took 0.114080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/ThirdParty/_HandPoser/Models/SK_RightHand.fbx
+  artifactKey: Guid(1c47f0ad0a292444fb62e9e6601c1568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/_HandPoser/Models/SK_RightHand.fbx using Guid(1c47f0ad0a292444fb62e9e6601c1568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07c8a6582e343e94825d79276567e97f') in 0.149102 seconds
+  Import took 0.160065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/ThirdParty/_HandPoser/Models/SK_LeftHand.fbx
+  artifactKey: Guid(ce2d9cf81ab1ce44ea9ca5e9afab1564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/_HandPoser/Models/SK_LeftHand.fbx using Guid(ce2d9cf81ab1ce44ea9ca5e9afab1564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74219155e8d015a4a46105182123b174') in 0.064628 seconds
+  Import took 0.071831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a084998babe72810e29e672783279532') in 0.071077 seconds
+  Import took 0.094525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000692 seconds.
+  path: Assets/ThirdParty/_HandPoser/Materials/PinkTexture.mat
+  artifactKey: Guid(fdc51a4b4c936f545afa4deee0e45a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/_HandPoser/Materials/PinkTexture.mat using Guid(fdc51a4b4c936f545afa4deee0e45a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97013618d1698fd768639e56097a48e0') in 0.055141 seconds
+  Import took 0.070397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000441 seconds.
+  path: Assets/ThirdParty/_HandPoser/Materials/Grey.mat
+  artifactKey: Guid(a3a0ba261b296284f83f73d03b7909df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/_HandPoser/Materials/Grey.mat using Guid(a3a0ba261b296284f83f73d03b7909df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5708b7e0d824f0989f430341a9435f54') in 0.034516 seconds
+  Import took 0.046805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 358.529608 seconds.
+  path: Assets/_Project/Prefabs/Rooms/initRoom.prefab
+  artifactKey: Guid(9729a9ef20865f747846f9ac7568adee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Prefabs/Rooms/initRoom.prefab using Guid(9729a9ef20865f747846f9ac7568adee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74a85142fa36d2bb7b0b7fd9a0c1e5de') in 0.033319 seconds
+  Import took 0.042012 seconds .
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 4.05 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.2 MB.
+System memory in use after: 98.4 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 4057.
+Total: 4.438000 ms (FindLiveObjects: 0.521800 ms CreateObjectMapping: 0.101100 ms MarkObjects: 3.790900 ms  DeleteObjects: 0.022600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  colorSpace: 1 -> 0
+========================================================================
+Received Import Request.
+  Time since last request: 668.811060 seconds.
+  path: Assets/_Project/Config/UniversalRenderPipelineAsset.asset
+  artifactKey: Guid(dfff50b84cb2d02458f15512fec306be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Config/UniversalRenderPipelineAsset.asset using Guid(dfff50b84cb2d02458f15512fec306be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '027d71f1740f54dcbbd2a1b3cb791db5') in 0.023396 seconds
+  Import took 0.035453 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005721 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\adria\Documents\Projects\MasterUtad\SolucionesVR_projects\scientificExperiment\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\adria\Documents\Projects\MasterUtad\SolucionesVR_projects\scientificExperiment\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.206 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 3368 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.1 MB.
+System memory in use after: 175.3 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4035.
+Total: 3.837700 ms (FindLiveObjects: 0.674100 ms CreateObjectMapping: 0.197600 ms MarkObjects: 2.934000 ms  DeleteObjects: 0.028300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 766.105892 seconds.
+  path: Assets/_Project/Materials/Environmet/Floor/Marble025_2K_Color.jpg
+  artifactKey: Guid(7d1771541004fe94c8419b941010afb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Materials/Environmet/Floor/Marble025_2K_Color.jpg using Guid(7d1771541004fe94c8419b941010afb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1abad6a4ffe8b20a2741abe65044a15a') in 0.067541 seconds
+  Import took 0.076341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/_Project/Materials/Environmet/Floor/Marble025_2K_NormalGL.jpg
+  artifactKey: Guid(65354e87c9fbc4c4e8d63fded496f972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Materials/Environmet/Floor/Marble025_2K_NormalGL.jpg using Guid(65354e87c9fbc4c4e8d63fded496f972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e8141cb7caa30281fee4d25de1d48c9') in 0.021016 seconds
+  Import took 0.026693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.054213 seconds.
+  path: Assets/_Project/Materials/Environmet/Walls
+  artifactKey: Guid(5ec46f7827ed1a749a7c8094a3491d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Materials/Environmet/Walls using Guid(5ec46f7827ed1a749a7c8094a3491d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e520af84e63a92a284c5bd98e20e02c8') in 0.007350 seconds
+  Import took 0.014632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002755 seconds.
+  path: Assets/_Project/Materials/Environmet/Walls
+  artifactKey: Guid(5ec46f7827ed1a749a7c8094a3491d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Materials/Environmet/Walls using Guid(5ec46f7827ed1a749a7c8094a3491d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e520af84e63a92a284c5bd98e20e02c8') in 0.002739 seconds
+  Import took 0.009096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 505.997058 seconds.
+  path: Assets/_Project/Materials/Environmet/Floor/Elevator.mat
+  artifactKey: Guid(5a26860afc81a464bb38814237e1b9eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Materials/Environmet/Floor/Elevator.mat using Guid(5a26860afc81a464bb38814237e1b9eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ecadd5c6a456a42938b3fe752f2aa10') in 0.136861 seconds
+  Import took 0.143954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.278185 seconds.
+  path: Assets/_Project/Materials/Environmet/Floor/PaintedMetal017_1K_Color.jpg
+  artifactKey: Guid(9138541cb6c87b54d8d86914912ac488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Materials/Environmet/Floor/PaintedMetal017_1K_Color.jpg using Guid(9138541cb6c87b54d8d86914912ac488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55c9cb98b81921927d4e081235ea5df2') in 0.015579 seconds
+  Import took 0.022872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/_Project/Materials/Environmet/Floor/PaintedMetal017_1K_NormalDX.jpg
+  artifactKey: Guid(b276ad94fbd17324290ecdfd8fef1eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Materials/Environmet/Floor/PaintedMetal017_1K_NormalDX.jpg using Guid(b276ad94fbd17324290ecdfd8fef1eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4f2ada03c018cee7d87a36cecb0280b') in 0.015586 seconds
+  Import took 0.023358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 208.497293 seconds.
+  path: Assets/_Project/Materials/Environmet/Floor/MetalWalkway010_1K_Color.jpg
+  artifactKey: Guid(a7d031edd1c7d674d9502c4d6ceb6896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Materials/Environmet/Floor/MetalWalkway010_1K_Color.jpg using Guid(a7d031edd1c7d674d9502c4d6ceb6896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b40a92962680bdeae5c6419abb0a890') in 0.014678 seconds
+  Import took 0.021751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/_Project/Materials/Environmet/Floor/MetalWalkway010_1K_NormalDX.jpg
+  artifactKey: Guid(253249a56da714a45a422db818c0813f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Materials/Environmet/Floor/MetalWalkway010_1K_NormalDX.jpg using Guid(253249a56da714a45a422db818c0813f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc5d4e33a2c8fb05c5f10ada3dbe2f4e') in 0.014788 seconds
+  Import took 0.022969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.964590 seconds.
+  path: Assets/_Project/Materials/Environmet/Floor/MetalWalkway010_1K_Metalness.jpg
+  artifactKey: Guid(908a67326318cfa41aaf89d6d05b5c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Materials/Environmet/Floor/MetalWalkway010_1K_Metalness.jpg using Guid(908a67326318cfa41aaf89d6d05b5c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63326cff698416e8776acda634d64c7e') in 0.014708 seconds
+  Import took 0.021476 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 110.740762 seconds.
+  path: Assets/_Project/Materials/Environmet/Floor/DiamondPlate001_1K_Color.jpg
+  artifactKey: Guid(406b8f57e736789468194b3de378f00e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Materials/Environmet/Floor/DiamondPlate001_1K_Color.jpg using Guid(406b8f57e736789468194b3de378f00e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c56fe30194bbd6aa0a1224d68821c035') in 0.015119 seconds
+  Import took 0.021717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/_Project/Materials/Environmet/Floor/DiamondPlate001_1K_Metalness.jpg
+  artifactKey: Guid(3da26d76e86eb8c47843c86d5e9d6a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Materials/Environmet/Floor/DiamondPlate001_1K_Metalness.jpg using Guid(3da26d76e86eb8c47843c86d5e9d6a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0993bf03e8706ad53d93d974ab746451') in 0.014429 seconds
+  Import took 0.020804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/_Project/Materials/Environmet/Floor/DiamondPlate001_1K_NormalDX.jpg
+  artifactKey: Guid(7c3a0f3acbdb5a3419392a9dfc0e1d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Materials/Environmet/Floor/DiamondPlate001_1K_NormalDX.jpg using Guid(7c3a0f3acbdb5a3419392a9dfc0e1d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efaee65f1c95e1973a29a409d6911a7f') in 0.014779 seconds
+  Import took 0.021440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 85.463040 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Editor/Imgs/DOTweenIcon.png
+  artifactKey: Guid(8da095e39e9b4df488dfd436f81116d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DOTween/Editor/Imgs/DOTweenIcon.png using Guid(8da095e39e9b4df488dfd436f81116d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71e99cd1dad7dac877b303196eee4b06') in 0.016856 seconds
+  Import took 0.022938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Header.jpg
+  artifactKey: Guid(78a59ca99f8987941adb61f9e14a06a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Header.jpg using Guid(78a59ca99f8987941adb61f9e14a06a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51b0e6cb331ee2ef4159810130e357ee') in 0.017349 seconds
+  Import took 0.024144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer.png
+  artifactKey: Guid(7051dba417b3d53409f2918f1ea4938d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer.png using Guid(7051dba417b3d53409f2918f1ea4938d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4470aff717cf32a682f88d9065fabc70') in 0.014298 seconds
+  Import took 0.021357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/_Project/Scenes/Laboratory/Lightmap-0_comp_light.exr
+  artifactKey: Guid(2e62b0e744b6f844fbc01c67df069dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Scenes/Laboratory/Lightmap-0_comp_light.exr using Guid(2e62b0e744b6f844fbc01c67df069dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35047789bc425acf7cd936d7beff54ec') in 0.038471 seconds
+  Import took 0.046483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/_Project/Scenes/Laboratory/Lightmap-0_comp_dir.png
+  artifactKey: Guid(d87cdbe72bea0984da655b01d16a8c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Scenes/Laboratory/Lightmap-0_comp_dir.png using Guid(d87cdbe72bea0984da655b01d16a8c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2212a642189b1ea0164239f428f635d3') in 0.019778 seconds
+  Import took 0.027242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/_Project/Scenes/Laboratory/Lightmap-0_comp_shadowmask.png
+  artifactKey: Guid(a75c4669e722d8b4a9a1339a243b1a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Scenes/Laboratory/Lightmap-0_comp_shadowmask.png using Guid(a75c4669e722d8b4a9a1339a243b1a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b01f75df87489383a51a7e15b1066a7') in 0.018184 seconds
+  Import took 0.025419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/_Project/Materials/Interactables/Kobalt Jobsite Blower_1.png
+  artifactKey: Guid(421f835448ccabd458ce68a3c7644616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Materials/Interactables/Kobalt Jobsite Blower_1.png using Guid(421f835448ccabd458ce68a3c7644616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12b2407c47b198ccb83fe5b9bfee5aaa') in 0.018436 seconds
+  Import took 0.025214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer_dark.png
+  artifactKey: Guid(519694efe2bb2914788b151fbd8c01f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer_dark.png using Guid(519694efe2bb2914788b151fbd8c01f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3636cc482be43e46ae2502a18b90bd10') in 0.016416 seconds
+  Import took 0.025670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Editor/Imgs/DOTweenMiniIcon.png
+  artifactKey: Guid(61521df2e071645488ba3d05e49289ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DOTween/Editor/Imgs/DOTweenMiniIcon.png using Guid(61521df2e071645488ba3d05e49289ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2ac4e33fc1df7da47978dc772e6d1d1') in 0.019023 seconds
+  Import took 0.027432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
+  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b63c2d53a5812e08494e2dd06826184') in 0.024457 seconds
+  Import took 0.034460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 360.469509 seconds.
+  path: Assets/_Project/Materials/Environmet/Walls/genericWall.mat
+  artifactKey: Guid(e97f18fe83b60ad4d8f4cb5b4551b805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Materials/Environmet/Walls/genericWall.mat using Guid(e97f18fe83b60ad4d8f4cb5b4551b805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abdf95592fda94cfd973a8676307c91a') in 0.015658 seconds
+  Import took 0.023016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.219945 seconds.
+  path: Assets/_Project/Materials/Environmet/Walls/Fabric048_1K_Color.jpg
+  artifactKey: Guid(8b0c5abbb5aa4b744a5ac7b9607c6a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Materials/Environmet/Walls/Fabric048_1K_Color.jpg using Guid(8b0c5abbb5aa4b744a5ac7b9607c6a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14e03d1b5b78d2ab68783618a471472d') in 0.014860 seconds
+  Import took 0.022100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/_Project/Materials/Environmet/Walls/Fabric048_1K_NormalGL.jpg
+  artifactKey: Guid(e30249abc273e9744b799b8c74e327d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Materials/Environmet/Walls/Fabric048_1K_NormalGL.jpg using Guid(e30249abc273e9744b799b8c74e327d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1cf616b757a0375519b4168b11be251') in 0.016710 seconds
+  Import took 0.024304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 259.490099 seconds.
+  path: Assets/_Project/Materials/Environmet/Floor/DiamondPlate001_1K_NormalDX.jpg
+  artifactKey: Guid(7c3a0f3acbdb5a3419392a9dfc0e1d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Materials/Environmet/Floor/DiamondPlate001_1K_NormalDX.jpg using Guid(7c3a0f3acbdb5a3419392a9dfc0e1d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fff8949e334ac69c8fff02dc6d16d8e') in 0.017523 seconds
+  Import took 0.024366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 99.099247 seconds.
+  path: Assets/_Project/Materials/Environmet/Floor/Elevator.mat
+  artifactKey: Guid(5a26860afc81a464bb38814237e1b9eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Materials/Environmet/Floor/Elevator.mat using Guid(5a26860afc81a464bb38814237e1b9eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fb97989543366b2c9bb73c842e37c2f') in 0.027428 seconds
+  Import took 0.035786 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006041 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\adria\Documents\Projects\MasterUtad\SolucionesVR_projects\scientificExperiment\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\adria\Documents\Projects\MasterUtad\SolucionesVR_projects\scientificExperiment\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.226 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Unloading 3367 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.3 MB.
+System memory in use after: 175.6 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4084.
+Total: 3.995000 ms (FindLiveObjects: 0.512300 ms CreateObjectMapping: 0.184400 ms MarkObjects: 3.265900 ms  DeleteObjects: 0.030600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 465.162548 seconds.
+  path: Assets/_Project/Materials/Environmet/Floor/Fabric048_1K_NormalDX.jpg
+  artifactKey: Guid(5c93ffcb241af274eafdb4b6f22cf7cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Materials/Environmet/Floor/Fabric048_1K_NormalDX.jpg using Guid(5c93ffcb241af274eafdb4b6f22cf7cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c9aa9b3b0a2656ea81b0b17a9aa2d11') in 0.044461 seconds
+  Import took 0.051486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.445088 seconds.
+  path: Assets/_Project/Materials/Environmet/Walls/Fabric048_1K_NormalGL.jpg
+  artifactKey: Guid(e30249abc273e9744b799b8c74e327d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Materials/Environmet/Walls/Fabric048_1K_NormalGL.jpg using Guid(e30249abc273e9744b799b8c74e327d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6563c11c7cc0d6d3d4b2ddf81a5d9157') in 0.017077 seconds
+  Import took 0.023444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/_Project/Materials/Environmet/Walls/genericWall.mat
+  artifactKey: Guid(e97f18fe83b60ad4d8f4cb5b4551b805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Materials/Environmet/Walls/genericWall.mat using Guid(e97f18fe83b60ad4d8f4cb5b4551b805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c3b5acac3e901598a6d73691189a6f4') in 0.142350 seconds
+  Import took 0.148611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.211296 seconds.
+  path: Assets/_Project/Materials/Environmet/Walls/Fabric048_1K_NormalDX.jpg
+  artifactKey: Guid(0822eb22f7d2d7242a53469ca78cc16a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Materials/Environmet/Walls/Fabric048_1K_NormalDX.jpg using Guid(0822eb22f7d2d7242a53469ca78cc16a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b25c6294c15b43f802d259a051d4c004') in 0.012710 seconds
+  Import took 0.019071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 158.742327 seconds.
+  path: Assets/_Project/Materials/Environmet/Walls/TactilePaving002_1K_Color.jpg
+  artifactKey: Guid(ff185c14411daea44b50a99f2d8a2c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Materials/Environmet/Walls/TactilePaving002_1K_Color.jpg using Guid(ff185c14411daea44b50a99f2d8a2c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74c4ec555d8ff531a85ec0718a86059b') in 0.015747 seconds
+  Import took 0.023061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/_Project/Materials/Environmet/Walls/TactilePaving002_1K_NormalGL.jpg
+  artifactKey: Guid(b397ddd8d50fe5a42a325775cdac7850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Materials/Environmet/Walls/TactilePaving002_1K_NormalGL.jpg using Guid(b397ddd8d50fe5a42a325775cdac7850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '790e6f4aaacf0af8f8422b6af629d69a') in 0.018697 seconds
+  Import took 0.024649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001721 seconds.
+  path: Assets/_Project/Materials/Environmet/Walls/TactilePaving002_1K_NormalGL.jpg
+  artifactKey: Guid(b397ddd8d50fe5a42a325775cdac7850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Materials/Environmet/Walls/TactilePaving002_1K_NormalGL.jpg using Guid(b397ddd8d50fe5a42a325775cdac7850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '790e6f4aaacf0af8f8422b6af629d69a') in 0.012636 seconds
+  Import took 0.021020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 159.837813 seconds.
+  path: Assets/_Project/Materials/Environmet/Walls/PaintedPlaster017_1K_Color.jpg
+  artifactKey: Guid(94879fce7868fae4182564a8e397c1bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Materials/Environmet/Walls/PaintedPlaster017_1K_Color.jpg using Guid(94879fce7868fae4182564a8e397c1bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4b5d109df73ea35d701c48880a7e7a7') in 0.015649 seconds
+  Import took 0.023301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/_Project/Materials/Environmet/Walls/PaintedPlaster017_1K_NormalDX.jpg
+  artifactKey: Guid(9f14733ea71955c47abe2212cc61aac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Materials/Environmet/Walls/PaintedPlaster017_1K_NormalDX.jpg using Guid(9f14733ea71955c47abe2212cc61aac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6406604850d5cd52da8e63e69a18871e') in 0.013584 seconds
+  Import took 0.020334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 186.808745 seconds.
+  path: Assets/_Project/Materials/Environmet/Walls/genericWall.mat
+  artifactKey: Guid(e97f18fe83b60ad4d8f4cb5b4551b805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Materials/Environmet/Walls/genericWall.mat using Guid(e97f18fe83b60ad4d8f4cb5b4551b805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '206d22392ddea32344cc786179a7fb7e') in 0.023287 seconds
+  Import took 0.030755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.771539 seconds.
+  path: Assets/_Project/Materials/Environmet/Walls/PaintedPlaster017_1K_NormalDX.jpg
+  artifactKey: Guid(9f14733ea71955c47abe2212cc61aac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Materials/Environmet/Walls/PaintedPlaster017_1K_NormalDX.jpg using Guid(9f14733ea71955c47abe2212cc61aac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a679abcca8be9505daf5e344b5c5c1d0') in 0.011713 seconds
+  Import took 0.018276 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006160 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\adria\Documents\Projects\MasterUtad\SolucionesVR_projects\scientificExperiment\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\adria\Documents\Projects\MasterUtad\SolucionesVR_projects\scientificExperiment\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.189 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 3367 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.5 MB.
+System memory in use after: 175.8 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4126.
+Total: 7.617200 ms (FindLiveObjects: 2.142500 ms CreateObjectMapping: 0.499700 ms MarkObjects: 4.928600 ms  DeleteObjects: 0.041700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 496.285936 seconds.
+  path: Assets/_Project/Materials/Environmet/Walls/fiber-textured-wall1_albedo.png
+  artifactKey: Guid(f4870b4e5307f9d4babdae0a8e25d353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Materials/Environmet/Walls/fiber-textured-wall1_albedo.png using Guid(f4870b4e5307f9d4babdae0a8e25d353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f24e0cc21d8e200f78e21f4612417428') in 0.052137 seconds
+  Import took 0.059945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/_Project/Materials/Environmet/Walls/fiber-textured-wall1_normal-ogl.png
+  artifactKey: Guid(96fa65b8a39d1df4f8c011bc02cf2065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Materials/Environmet/Walls/fiber-textured-wall1_normal-ogl.png using Guid(96fa65b8a39d1df4f8c011bc02cf2065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3f1087569ff4371004a6ec1e3df6263') in 0.017390 seconds
+  Import took 0.024233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/_Project/Materials/Environmet/Walls/fiber-textured-wall1_height.png
+  artifactKey: Guid(1355e087add7bd940b9bd369bc084a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Materials/Environmet/Walls/fiber-textured-wall1_height.png using Guid(1355e087add7bd940b9bd369bc084a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c3b95fff6663cdf4f3b7b4cc2936756') in 0.018186 seconds
+  Import took 0.026811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 137.467033 seconds.
+  path: Assets/_Project/Materials/Environmet/Walls/genericWall.mat
+  artifactKey: Guid(e97f18fe83b60ad4d8f4cb5b4551b805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Materials/Environmet/Walls/genericWall.mat using Guid(e97f18fe83b60ad4d8f4cb5b4551b805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd76a27297d5e6fca1b907391543d31df') in 0.201517 seconds
+  Import took 0.209942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.940053 seconds.
+  path: Assets/_Project/Materials/Environmet/Walls/fiber-textured-wall1_normal-ogl.png
+  artifactKey: Guid(96fa65b8a39d1df4f8c011bc02cf2065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Materials/Environmet/Walls/fiber-textured-wall1_normal-ogl.png using Guid(96fa65b8a39d1df4f8c011bc02cf2065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d5f3be8975573e961bac07ca2150239') in 0.020834 seconds
+  Import took 0.028196 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006129 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\adria\Documents\Projects\MasterUtad\SolucionesVR_projects\scientificExperiment\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\adria\Documents\Projects\MasterUtad\SolucionesVR_projects\scientificExperiment\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.186 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Unloading 3367 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.7 MB.
+System memory in use after: 175.9 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4167.
+Total: 4.067500 ms (FindLiveObjects: 0.412400 ms CreateObjectMapping: 0.099100 ms MarkObjects: 3.523500 ms  DeleteObjects: 0.030500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 788.985696 seconds.
+  path: Assets/_Project/Prefabs/Rooms/initRoom 1.prefab
+  artifactKey: Guid(aa43eca8253a7244e88e7acea4920c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Prefabs/Rooms/initRoom 1.prefab using Guid(aa43eca8253a7244e88e7acea4920c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fa57e2db35ed5be883a2583e7b05af1') in 0.194853 seconds
+  Import took 0.203734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 107.617917 seconds.
+  path: Assets/_Project/Prefabs/Rooms/initRoomç.prefab
+  artifactKey: Guid(aa43eca8253a7244e88e7acea4920c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Prefabs/Rooms/initRoomç.prefab using Guid(aa43eca8253a7244e88e7acea4920c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85ce66998ae25cc50628a79830a42b6f') in 0.041227 seconds
+  Import took 0.048700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.124313 seconds.
+  path: Assets/_Project/Prefabs/Rooms/initRoom.prefab
+  artifactKey: Guid(aa43eca8253a7244e88e7acea4920c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Prefabs/Rooms/initRoom.prefab using Guid(aa43eca8253a7244e88e7acea4920c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be23a9b8678fce09957e7d53a14035f3') in 0.039447 seconds
+  Import took 0.047538 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006011 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\adria\Documents\Projects\MasterUtad\SolucionesVR_projects\scientificExperiment\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\adria\Documents\Projects\MasterUtad\SolucionesVR_projects\scientificExperiment\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.234 seconds
+Platform modules already initialized, skipping
+Script is not up to date after domain reload: guid(2d47d33b5daf05f4b9ea81e2ec986774) path("Assets/_Project/Scripts/PoolManager.cs") state(2)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+Unloading 3368 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.9 MB.
+System memory in use after: 176.1 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4208.
+Total: 3.846300 ms (FindLiveObjects: 0.523300 ms CreateObjectMapping: 0.167100 ms MarkObjects: 3.126000 ms  DeleteObjects: 0.027800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006724 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\adria\Documents\Projects\MasterUtad\SolucionesVR_projects\scientificExperiment\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\adria\Documents\Projects\MasterUtad\SolucionesVR_projects\scientificExperiment\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.186 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Unloading 3370 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.9 MB.
+System memory in use after: 176.2 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4214.
+Total: 3.777800 ms (FindLiveObjects: 0.576600 ms CreateObjectMapping: 0.190900 ms MarkObjects: 2.980700 ms  DeleteObjects: 0.028000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005997 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\adria\Documents\Projects\MasterUtad\SolucionesVR_projects\scientificExperiment\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\adria\Documents\Projects\MasterUtad\SolucionesVR_projects\scientificExperiment\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.189 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Unloading 3371 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 176.0 MB.
+System memory in use after: 176.2 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4219.
+Total: 3.766600 ms (FindLiveObjects: 0.434200 ms CreateObjectMapping: 0.101700 ms MarkObjects: 3.200600 ms  DeleteObjects: 0.027900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005634 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\adria\Documents\Projects\MasterUtad\SolucionesVR_projects\scientificExperiment\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\adria\Documents\Projects\MasterUtad\SolucionesVR_projects\scientificExperiment\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.177 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 3372 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 176.0 MB.
+System memory in use after: 176.2 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4224.
+Total: 4.104000 ms (FindLiveObjects: 0.571600 ms CreateObjectMapping: 0.229900 ms MarkObjects: 3.276000 ms  DeleteObjects: 0.024800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 417.981223 seconds.
+  path: Assets/_Project/Scripts/Singleton.cs
+  artifactKey: Guid(48516dda264eac341a93a4e7a3c7e3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Scripts/Singleton.cs using Guid(48516dda264eac341a93a4e7a3c7e3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4da87bed4ade9bc640f1da08f94513b') in 0.024225 seconds
+  Import took 0.031507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 63.068108 seconds.
+  path: Assets/_Project/Scripts/HandHider.cs
+  artifactKey: Guid(ebac68930be1bc34199ce84c1b1c11e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Scripts/HandHider.cs using Guid(ebac68930be1bc34199ce84c1b1c11e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39c84a8d3a400f7ae61109386abed975') in 0.009040 seconds
+  Import took 0.015670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.596668 seconds.
+  path: Assets/_Project/Scripts/Health.cs
+  artifactKey: Guid(491b78c6636a83a4b9b92263e60ea2f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Scripts/Health.cs using Guid(491b78c6636a83a4b9b92263e60ea2f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '077dad0578096cde0cc3265e6f97383b') in 0.008089 seconds
+  Import took 0.014871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000920 seconds.
+  path: Assets/_Project/Scripts/Health.cs
+  artifactKey: Guid(491b78c6636a83a4b9b92263e60ea2f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Scripts/Health.cs using Guid(491b78c6636a83a4b9b92263e60ea2f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '077dad0578096cde0cc3265e6f97383b') in 0.003416 seconds
+  Import took 0.011152 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006993 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.19 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\adria\Documents\Projects\MasterUtad\SolucionesVR_projects\scientificExperiment\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\adria\Documents\Projects\MasterUtad\SolucionesVR_projects\scientificExperiment\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.280 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Unloading 3373 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 176.0 MB.
+System memory in use after: 176.3 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4229.
+Total: 4.399500 ms (FindLiveObjects: 0.484500 ms CreateObjectMapping: 0.189800 ms MarkObjects: 3.694400 ms  DeleteObjects: 0.029100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006398 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\adria\Documents\Projects\MasterUtad\SolucionesVR_projects\scientificExperiment\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\adria\Documents\Projects\MasterUtad\SolucionesVR_projects\scientificExperiment\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.247 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 3373 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 176.0 MB.
+System memory in use after: 176.3 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4233.
+Total: 4.297200 ms (FindLiveObjects: 0.532400 ms CreateObjectMapping: 0.187100 ms MarkObjects: 3.547700 ms  DeleteObjects: 0.027900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 312.237597 seconds.
+  path: Assets/_Project/Scripts/GameManager.cs
+  artifactKey: Guid(71a19d7580d40f041abae0ba5704c5c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Scripts/GameManager.cs using Guid(71a19d7580d40f041abae0ba5704c5c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9163463a903587c64a355ae3c721364') in 0.013549 seconds
+  Import took 0.020894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.540700 seconds.
+  path: Assets/_Project/Scripts/PoolManager.cs
+  artifactKey: Guid(2d47d33b5daf05f4b9ea81e2ec986774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Scripts/PoolManager.cs using Guid(2d47d33b5daf05f4b9ea81e2ec986774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cd5f04b5b9ee9cd77eec18ce268da80') in 0.011082 seconds
+  Import took 0.018010 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005991 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\adria\Documents\Projects\MasterUtad\SolucionesVR_projects\scientificExperiment\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\adria\Documents\Projects\MasterUtad\SolucionesVR_projects\scientificExperiment\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.161 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Unloading 3372 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 176.0 MB.
+System memory in use after: 176.3 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 4236.
+Total: 3.736100 ms (FindLiveObjects: 0.595900 ms CreateObjectMapping: 0.203700 ms MarkObjects: 2.906100 ms  DeleteObjects: 0.028400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005663 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\adria\Documents\Projects\MasterUtad\SolucionesVR_projects\scientificExperiment\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\adria\Documents\Projects\MasterUtad\SolucionesVR_projects\scientificExperiment\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.141 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 3372 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 176.0 MB.
+System memory in use after: 176.3 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4240.
+Total: 3.712600 ms (FindLiveObjects: 0.540600 ms CreateObjectMapping: 0.185000 ms MarkObjects: 2.956000 ms  DeleteObjects: 0.028900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 414.387135 seconds.
+  path: Assets/_Project/Prefabs/Rooms/initRoom.prefab
+  artifactKey: Guid(aa43eca8253a7244e88e7acea4920c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Prefabs/Rooms/initRoom.prefab using Guid(aa43eca8253a7244e88e7acea4920c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf82f8863cfdaaaa8cfd3029b9470a6e') in 0.207447 seconds
+  Import took 0.216737 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005935 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\adria\Documents\Projects\MasterUtad\SolucionesVR_projects\scientificExperiment\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\adria\Documents\Projects\MasterUtad\SolucionesVR_projects\scientificExperiment\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.167 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Unloading 3372 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 176.2 MB.
+System memory in use after: 176.4 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4280.
+Total: 3.855000 ms (FindLiveObjects: 0.571500 ms CreateObjectMapping: 0.136700 ms MarkObjects: 3.119800 ms  DeleteObjects: 0.025200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 499.456065 seconds.
+  path: Assets/_Project/Prefabs/Rooms/initRoom.prefab
+  artifactKey: Guid(aa43eca8253a7244e88e7acea4920c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Prefabs/Rooms/initRoom.prefab using Guid(aa43eca8253a7244e88e7acea4920c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9362fb846755ff777ef1ba1c639ccfea') in 0.180725 seconds
+  Import took 0.189302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.463929 seconds.
+  path: Assets/_Project/Prefabs/Rooms/initRoom.prefab
+  artifactKey: Guid(aa43eca8253a7244e88e7acea4920c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Prefabs/Rooms/initRoom.prefab using Guid(aa43eca8253a7244e88e7acea4920c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45cf6cb8194632452c5cac99463fadbe') in 0.038166 seconds
+  Import took 0.046530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.274787 seconds.
+  path: Assets/_Project/Prefabs/Rooms/initRoom.prefab
+  artifactKey: Guid(aa43eca8253a7244e88e7acea4920c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Prefabs/Rooms/initRoom.prefab using Guid(aa43eca8253a7244e88e7acea4920c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6e55a8cef0c887c8a805245e058c2b1') in 0.038095 seconds
+  Import took 0.046450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.858010 seconds.
+  path: Assets/_Project/Prefabs/Rooms/initRoom.prefab
+  artifactKey: Guid(aa43eca8253a7244e88e7acea4920c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Prefabs/Rooms/initRoom.prefab using Guid(aa43eca8253a7244e88e7acea4920c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ab7e138acb30908407edbe33ef5497a') in 0.035213 seconds
+  Import took 0.042298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.604838 seconds.
+  path: Assets/_Project/Prefabs/Rooms/initRoom.prefab
+  artifactKey: Guid(aa43eca8253a7244e88e7acea4920c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Prefabs/Rooms/initRoom.prefab using Guid(aa43eca8253a7244e88e7acea4920c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '749376c3874b2e25eb9028575b9745c9') in 0.035593 seconds
+  Import took 0.042921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.224213 seconds.
+  path: Assets/_Project/Prefabs/Rooms/initRoom.prefab
+  artifactKey: Guid(aa43eca8253a7244e88e7acea4920c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Prefabs/Rooms/initRoom.prefab using Guid(aa43eca8253a7244e88e7acea4920c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '620f138588923c032ec1b2a21635f712') in 0.035761 seconds
+  Import took 0.043656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.376977 seconds.
+  path: Assets/_Project/Prefabs/Rooms/initRoom.prefab
+  artifactKey: Guid(aa43eca8253a7244e88e7acea4920c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Prefabs/Rooms/initRoom.prefab using Guid(aa43eca8253a7244e88e7acea4920c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04212f3f2d1c6bd1488407092d0101ec') in 0.037395 seconds
+  Import took 0.045147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.584075 seconds.
+  path: Assets/_Project/Prefabs/Rooms/initRoom.prefab
+  artifactKey: Guid(aa43eca8253a7244e88e7acea4920c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Prefabs/Rooms/initRoom.prefab using Guid(aa43eca8253a7244e88e7acea4920c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66504f36579365d88f2b210c35f0a73a') in 0.033166 seconds
+  Import took 0.041146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.392046 seconds.
+  path: Assets/_Project/Prefabs/Rooms/initRoom.prefab
+  artifactKey: Guid(aa43eca8253a7244e88e7acea4920c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Prefabs/Rooms/initRoom.prefab using Guid(aa43eca8253a7244e88e7acea4920c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '187c1151a7208b902f2149f81607f5ff') in 0.035144 seconds
+  Import took 0.042708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.804454 seconds.
+  path: Assets/_Project/Prefabs/Rooms/initRoom.prefab
+  artifactKey: Guid(aa43eca8253a7244e88e7acea4920c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Prefabs/Rooms/initRoom.prefab using Guid(aa43eca8253a7244e88e7acea4920c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbf5080de188b18b0a7a765cfc96e23f') in 0.035467 seconds
+  Import took 0.043645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.692928 seconds.
+  path: Assets/_Project/Prefabs/Rooms/initRoom.prefab
+  artifactKey: Guid(aa43eca8253a7244e88e7acea4920c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Prefabs/Rooms/initRoom.prefab using Guid(aa43eca8253a7244e88e7acea4920c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a14c15e651fcf2015e1ee0af0e860746') in 0.035990 seconds
+  Import took 0.044292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.849187 seconds.
+  path: Assets/_Project/Prefabs/Rooms/initRoom.prefab
+  artifactKey: Guid(aa43eca8253a7244e88e7acea4920c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Prefabs/Rooms/initRoom.prefab using Guid(aa43eca8253a7244e88e7acea4920c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2c46845fab441c707028c23e337b43f') in 0.037378 seconds
+  Import took 0.045448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.174068 seconds.
+  path: Assets/_Project/Prefabs/Rooms/initRoom.prefab
+  artifactKey: Guid(aa43eca8253a7244e88e7acea4920c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Prefabs/Rooms/initRoom.prefab using Guid(aa43eca8253a7244e88e7acea4920c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c2e4001ec009dfb2370e560171f51a2') in 0.035206 seconds
+  Import took 0.042855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.371831 seconds.
+  path: Assets/_Project/Prefabs/Rooms/initRoom.prefab
+  artifactKey: Guid(aa43eca8253a7244e88e7acea4920c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Prefabs/Rooms/initRoom.prefab using Guid(aa43eca8253a7244e88e7acea4920c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bab52d01e25af3bf265d002580eef38') in 0.033878 seconds
+  Import took 0.041937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.478727 seconds.
+  path: Assets/_Project/Prefabs/Rooms/initRoom.prefab
+  artifactKey: Guid(aa43eca8253a7244e88e7acea4920c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Prefabs/Rooms/initRoom.prefab using Guid(aa43eca8253a7244e88e7acea4920c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cddf83a51b94af6f890d5af9b5429e30') in 0.034079 seconds
+  Import took 0.041821 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
