@@ -1,46 +1,43 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using DG.Tweening;
 using TMPro;
+using System;
+using UnityEngine.Rendering;
 
 public class GameManager : MonoBehaviour
 {
-    protected Health _playerHealth;
-    protected bool win = false;
-    public Image fadeOut;
-    [SerializeField] TextMeshProUGUI TextGameOver, TextWin, TextRestart;
+    //protected Health _playerHealth;
+    //protected bool win = false;
+    //[SerializeField] TextMeshProUGUI TextGameOver, TextWin, TextRestart;
+
+    private int currentStage = 1;
+    [SerializeField] private Transform transformPlayer;
+    [SerializeField] private Volume fadeToBlackVolume;
 
     void Awake()
     {
-        _playerHealth = Player.instance.GetComponent<Health>();
+        //_playerHealth = Player.instance.GetComponent<Health>();
     }
 
     private void Update()
     {
-        //Canvas to game over 
-        if (!_playerHealth.IsAlive)
-        {
-            fadeOut.DOColor(new Color(0, 0, 0, 1f), 5f);
-            TextGameOver.DOColor(new Color(1f, 1f, 1f, 1f), 5f);
-            TextRestart.DOColor(new Color(1f, 1f, 1f, 1f), 5f);
-            if (Input.GetKeyDown(KeyCode.Space)) 
-                SceneManager.LoadScene(0);
-        }
-        //Canvas to game win
-        if (win)
-        {
-            fadeOut.DOColor(new Color(0, 0, 0, 1f), 5f);
-            TextWin.DOColor(new Color(1f, 1f, 1f, 1f), 5f);
-            TextRestart.DOColor(new Color(1f, 1f, 1f, 1f), 5f);
-            if (Input.GetKeyDown(KeyCode.Space))
-                SceneManager.LoadScene(0);
-        }
+       
     }
-    public void setWin()
+    public void nextStage()
     {
-        win = true;
+        currentStage++;
+        loadStage();
+    }
+
+    private void loadStage()
+    {
+        Debug.Log("debug enter next round");
+        DOTween.To(() => fadeToBlackVolume.weight, x => fadeToBlackVolume.weight = x, 1f, 1).OnComplete(() =>
+        {
+            transformPlayer.position = new Vector3(0,0,0);
+            DOTween.To(() => fadeToBlackVolume.weight, x => fadeToBlackVolume.weight = x, 0f, 1);
+        });
     }
 }
