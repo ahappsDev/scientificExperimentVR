@@ -15,12 +15,12 @@ C:/Users/adria/Documents/Projects/MasterUtad/SolucionesVR_projects/scientificExp
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57367
+57812
 Successfully changed project path to: C:/Users/adria/Documents/Projects/MasterUtad/SolucionesVR_projects/scientificExperiment
 C:/Users/adria/Documents/Projects/MasterUtad/SolucionesVR_projects/scientificExperiment
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 66.67 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.89 ms.
+Refreshing native plugins compatible for Editor in 81.25 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 1.51 ms.
 Initialize engine version: 2020.3.10f1 (297d780c91bc)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/adria/Documents/Projects/MasterUtad/SolucionesVR_projects/scientificExperiment/Assets
@@ -36,23 +36,23 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56464
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56412
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001754 seconds.
+Registered in 0.001825 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 61.35 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.14 ms.
+Refreshing native plugins compatible for Editor in 65.19 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.638 seconds
+- Completed reload, in  3.482 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006148 seconds.
+Registered in 0.007834 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 63.12 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.14 ms.
+Refreshing native plugins compatible for Editor in 78.69 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.20 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
 [XR] Oculus Input lifecycle provider registered.
@@ -64,540 +64,522 @@ NullReferenceException: Object reference not set to an instance of an object
 (Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  2.439 seconds
+- Completed reload, in  1.471 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.79 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.13 ms.
-Unloading 3507 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 164.5 MB.
-System memory in use after: 164.7 MB.
-
-Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3946.
-Total: 3.382500 ms (FindLiveObjects: 0.378800 ms CreateObjectMapping: 0.099900 ms MarkObjects: 2.817400 ms  DeleteObjects: 0.084700 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/_Project/Scenes/Laboratory.unity
-  artifactKey: Guid(c129db6b275156f48ae65ace4d23ede7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Scenes/Laboratory.unity using Guid(c129db6b275156f48ae65ace4d23ede7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b131c005af4a2abaf6827c1f41d4a9c5') in 0.024603 seconds
-  Import took 0.031133 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/_Project/Scenes
-  artifactKey: Guid(a8e4cb0319928f84ea7302aaa35c0e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Scenes using Guid(a8e4cb0319928f84ea7302aaa35c0e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '663430cd719c8ebda1180a7307ba7502') in 0.008911 seconds
-  Import took 0.014974 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/_Project
-  artifactKey: Guid(12ea89802254f4040be3b7fa5b55bfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project using Guid(12ea89802254f4040be3b7fa5b55bfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66661ac68410d84a59bfd6b03aebd38b') in 0.009634 seconds
-  Import took 0.015990 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.641314 seconds.
-  path: Assets/_Project/Prefabs
-  artifactKey: Guid(fa1fbe44d7aabc1499b5e375d24a5a89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Prefabs using Guid(fa1fbe44d7aabc1499b5e375d24a5a89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cae3133a1abb9542af364f3db393323') in 0.007935 seconds
-  Import took 0.014192 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.032599 seconds.
-  path: Assets/_Project/Prefabs/XR Origin.prefab
-  artifactKey: Guid(bd948087576ec704995739fc4e8700f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Prefabs/XR Origin.prefab using Guid(bd948087576ec704995739fc4e8700f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69ccd0bd261ffd2072f2812764181ecb') in 0.733308 seconds
-  Import took 0.740247 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.158431 seconds.
-  path: Assets/_Project/Prefabs/Rooms
-  artifactKey: Guid(faffd4628bd008044baf2e96e1ce4d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Prefabs/Rooms using Guid(faffd4628bd008044baf2e96e1ce4d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88ef453b9d76592490aca8d29cef6c57') in 0.008007 seconds
-  Import took 0.014423 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.760797 seconds.
-  path: Assets/_Project/Prefabs/Rooms/initRoom.prefab
-  artifactKey: Guid(aa43eca8253a7244e88e7acea4920c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Prefabs/Rooms/initRoom.prefab using Guid(aa43eca8253a7244e88e7acea4920c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30072e4f277c0746b6c0790c743d7e06') in 1.103888 seconds
-  Import took 1.111093 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/_Project/Prefabs/Rooms/Stage.prefab
-  artifactKey: Guid(775bbfe89f43e35429b7b4ff2dad251c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Prefabs/Rooms/Stage.prefab using Guid(775bbfe89f43e35429b7b4ff2dad251c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '204ace02a42e53e7c638b80e6ae22e54') in 0.039896 seconds
-  Import took 0.046619 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 159.869995 seconds.
-  path: Assets/_Project/Config/UniversalRenderPipelineAsset.asset
-  artifactKey: Guid(dfff50b84cb2d02458f15512fec306be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Config/UniversalRenderPipelineAsset.asset using Guid(dfff50b84cb2d02458f15512fec306be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df78e709b91d4c5b037f5179aa8c3933') in 0.009474 seconds
-  Import took 0.016147 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000274 seconds.
-  path: Assets/_Project/Config/UniversalRenderPipelineAsset_Renderer.asset
-  artifactKey: Guid(d452c58e669c81043b79fa1420c3fd57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Config/UniversalRenderPipelineAsset_Renderer.asset using Guid(d452c58e669c81043b79fa1420c3fd57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6d86d07a6ebc7dbe3153e8ac9f2e939') in 0.010767 seconds
-  Import took 0.017415 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 76.572827 seconds.
-  path: Assets/_Project/PostProcess/FadeToBlackPostProcess.asset
-  artifactKey: Guid(7d31a688561deeb46aa64dfcc3756431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/PostProcess/FadeToBlackPostProcess.asset using Guid(7d31a688561deeb46aa64dfcc3756431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '404c9c45a30a58fd25f20d34aea7608b') in 0.009541 seconds
-  Import took 0.016100 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.613593 seconds.
-  path: Assets/_Project/Materials/Objects
-  artifactKey: Guid(7b3d7d37853a42d4497b5df6f82fc182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Materials/Objects using Guid(7b3d7d37853a42d4497b5df6f82fc182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54c06e4410d3963536904fdd1c6e3fae') in 0.007697 seconds
-  Import took 0.014314 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.084333 seconds.
-  path: Assets/_Project/Materials/Objects/board.mat
-  artifactKey: Guid(241c81048148f3a438f8b012cc997809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Materials/Objects/board.mat using Guid(241c81048148f3a438f8b012cc997809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb353eac1c5f89e51320c1b49253a702') in 0.031107 seconds
-  Import took 0.037871 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000325 seconds.
-  path: Assets/_Project/Materials/Objects/metalSimple.mat
-  artifactKey: Guid(7b8c13254d9990d46a45a00f0b9b6db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Materials/Objects/metalSimple.mat using Guid(7b8c13254d9990d46a45a00f0b9b6db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1280cc80a9330d891f35b1dd5204eedc') in 0.014155 seconds
-  Import took 0.020410 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 46.449532 seconds.
-  path: Assets/_Project/Materials/Interactables
-  artifactKey: Guid(f38eb80f699bb5047a5eca0bb82d72b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Materials/Interactables using Guid(f38eb80f699bb5047a5eca0bb82d72b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84568efc9d4537a051fc3297329713c5') in 0.008606 seconds
-  Import took 0.014984 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.067199 seconds.
-  path: Assets/_Project/Materials/Interactables/blowerMaterial.mat
-  artifactKey: Guid(725c73bfe0b052b45873eaad8c681a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Materials/Interactables/blowerMaterial.mat using Guid(725c73bfe0b052b45873eaad8c681a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bcf5d1cf89bcdb22ab8483eb5d1407c') in 0.018263 seconds
-  Import took 0.024920 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000320 seconds.
-  path: Assets/_Project/Materials/Interactables/Kobalt Jobsite Blower_1.png
-  artifactKey: Guid(421f835448ccabd458ce68a3c7644616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Materials/Interactables/Kobalt Jobsite Blower_1.png using Guid(421f835448ccabd458ce68a3c7644616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd5f03f53f476818d83827107aa5520f') in 0.026631 seconds
-  Import took 0.032909 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002744 seconds.
-  path: Assets/_Project/Materials/Interactables/Kobalt Jobsite Blower_1.png
-  artifactKey: Guid(421f835448ccabd458ce68a3c7644616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Materials/Interactables/Kobalt Jobsite Blower_1.png using Guid(421f835448ccabd458ce68a3c7644616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd5f03f53f476818d83827107aa5520f') in 0.014394 seconds
-  Import took 0.021433 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.864479 seconds.
-  path: Assets/_Project/Materials/Environmet
-  artifactKey: Guid(cf11588232af8124b81916cc7c98599b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Materials/Environmet using Guid(cf11588232af8124b81916cc7c98599b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd311b84a287c1d42ede3f298075d06d') in 0.008248 seconds
-  Import took 0.014412 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.654204 seconds.
-  path: Assets/_Project/Materials/Environmet/Walls
-  artifactKey: Guid(5ec46f7827ed1a749a7c8094a3491d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Materials/Environmet/Walls using Guid(5ec46f7827ed1a749a7c8094a3491d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f16c1bd0ffffda42d02c7bb9389f4da') in 0.009066 seconds
-  Import took 0.015574 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.036369 seconds.
-  path: Assets/_Project/Materials/Environmet/Walls/fiber-textured-wall1_albedo.png
-  artifactKey: Guid(f4870b4e5307f9d4babdae0a8e25d353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Materials/Environmet/Walls/fiber-textured-wall1_albedo.png using Guid(f4870b4e5307f9d4babdae0a8e25d353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6a49203c6c92f1f4b9e76e941aaf684') in 0.014753 seconds
-  Import took 0.020759 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000343 seconds.
-  path: Assets/_Project/Materials/Environmet/Walls/fiber-textured-wall1_normal-ogl.png
-  artifactKey: Guid(96fa65b8a39d1df4f8c011bc02cf2065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Materials/Environmet/Walls/fiber-textured-wall1_normal-ogl.png using Guid(96fa65b8a39d1df4f8c011bc02cf2065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a561cab8b2916c16a4cddde1d9acf22f') in 0.021122 seconds
-  Import took 0.028329 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/_Project/Materials/Environmet/Walls/fiber-textured-wall1_height.png
-  artifactKey: Guid(1355e087add7bd940b9bd369bc084a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Materials/Environmet/Walls/fiber-textured-wall1_height.png using Guid(1355e087add7bd940b9bd369bc084a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8ca44023dc6afe93bd877a5d3cbc858') in 0.018454 seconds
-  Import took 0.025508 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/_Project/Materials/Environmet/Walls/genericWall.mat
-  artifactKey: Guid(e97f18fe83b60ad4d8f4cb5b4551b805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Materials/Environmet/Walls/genericWall.mat using Guid(e97f18fe83b60ad4d8f4cb5b4551b805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43e2ca58683d7822360493777eea2ace') in 0.025861 seconds
-  Import took 0.032086 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.002255 seconds.
-  path: Assets/_Project/Materials/Environmet/Walls/Metal_RollupDoor_001_basecolor.jpg
-  artifactKey: Guid(4052ea1154dd98148b23c1c5867bcb80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Materials/Environmet/Walls/Metal_RollupDoor_001_basecolor.jpg using Guid(4052ea1154dd98148b23c1c5867bcb80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '366b3630de217c65f944b945c74b30f8') in 0.020689 seconds
-  Import took 0.027388 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000288 seconds.
-  path: Assets/_Project/Materials/Environmet/Walls/Metal_RollupDoor_001_height.png
-  artifactKey: Guid(d8e54d6fcc14c024599796bd21b93895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Materials/Environmet/Walls/Metal_RollupDoor_001_height.png using Guid(d8e54d6fcc14c024599796bd21b93895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5073eec34847c0e79406c6c74d67c34a') in 0.014092 seconds
-  Import took 0.021105 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/_Project/Materials/Environmet/Walls/Metal_RollupDoor_001_basecolor.jpg
-  artifactKey: Guid(4052ea1154dd98148b23c1c5867bcb80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Materials/Environmet/Walls/Metal_RollupDoor_001_basecolor.jpg using Guid(4052ea1154dd98148b23c1c5867bcb80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '366b3630de217c65f944b945c74b30f8') in 0.012500 seconds
-  Import took 0.018886 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/_Project/Materials/Environmet/Walls/Metal_RollupDoor_001_normal.jpg
-  artifactKey: Guid(08e88592eab3c764cb17088a830fa056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Materials/Environmet/Walls/Metal_RollupDoor_001_normal.jpg using Guid(08e88592eab3c764cb17088a830fa056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6ae24e5309c6cdef398f586de2f9971') in 0.019911 seconds
-  Import took 0.029763 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.051578 seconds.
-  path: Assets/_Project/Materials/Environmet/Walls/metalDoor.mat
-  artifactKey: Guid(79c9e325f1857124196353e0f5657a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Materials/Environmet/Walls/metalDoor.mat using Guid(79c9e325f1857124196353e0f5657a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e57c57ee735127a3c5292ec82b5a7040') in 0.016287 seconds
-  Import took 0.023591 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 98.526771 seconds.
-  path: Assets/_Project/Scripts
-  artifactKey: Guid(44d0069206afd7742963af0f503337f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Scripts using Guid(44d0069206afd7742963af0f503337f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e25f5a77f46d0541aee4bfd3c573a3b') in 0.008491 seconds
-  Import took 0.014740 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.511268 seconds.
-  path: Assets/_Project/Scripts/elevatorMove.cs
-  artifactKey: Guid(1233f484462a8984e8859fbf9442c62b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Scripts/elevatorMove.cs using Guid(1233f484462a8984e8859fbf9442c62b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6be82554681eb7bde5c7ffa4cf1f49cf') in 0.010018 seconds
-  Import took 0.016965 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.839968 seconds.
-  path: Assets/_Project/Scripts/elevatorMove.cs
-  artifactKey: Guid(1233f484462a8984e8859fbf9442c62b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Scripts/elevatorMove.cs using Guid(1233f484462a8984e8859fbf9442c62b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2406c3089326f4b2728b229196826a83') in 0.007407 seconds
-  Import took 0.026018 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003484 seconds.
-  path: Assets/_Project/Scripts/elevatorMove.cs
-  artifactKey: Guid(1233f484462a8984e8859fbf9442c62b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Scripts/elevatorMove.cs using Guid(1233f484462a8984e8859fbf9442c62b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2406c3089326f4b2728b229196826a83') in 0.005603 seconds
-  Import took 0.017071 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006749 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.92 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.16 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\adria\Documents\Projects\MasterUtad\SolucionesVR_projects\scientificExperiment\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\adria\Documents\Projects\MasterUtad\SolucionesVR_projects\scientificExperiment\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.237 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.96 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.12 ms.
-Unloading 3375 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 176.5 MB.
-System memory in use after: 176.7 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4037.
-Total: 4.858300 ms (FindLiveObjects: 0.592400 ms CreateObjectMapping: 0.110800 ms MarkObjects: 4.128600 ms  DeleteObjects: 0.024500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005651 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.17 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\adria\Documents\Projects\MasterUtad\SolucionesVR_projects\scientificExperiment\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\adria\Documents\Projects\MasterUtad\SolucionesVR_projects\scientificExperiment\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.219 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.80 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
-Unloading 3373 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 176.5 MB.
-System memory in use after: 176.7 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4041.
-Total: 3.558800 ms (FindLiveObjects: 0.393600 ms CreateObjectMapping: 0.099700 ms MarkObjects: 3.034700 ms  DeleteObjects: 0.029500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 227.378568 seconds.
-  path: Assets/_Project/Scripts/Elevator.cs
-  artifactKey: Guid(63bb0a9d376523b49b05527a2aac48ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Scripts/Elevator.cs using Guid(63bb0a9d376523b49b05527a2aac48ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57e1675e4bb3f2458c11e9a1094e2235') in 0.015779 seconds
-  Import took 0.023702 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005871 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 5 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.93 ms, found 5 plugins.
 Preloading 1 native plugins for Editor in 0.14 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\adria\Documents\Projects\MasterUtad\SolucionesVR_projects\scientificExperiment\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\adria\Documents\Projects\MasterUtad\SolucionesVR_projects\scientificExperiment\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+Unloading 3510 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 226.8 MB.
+System memory in use after: 227.0 MB.
 
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.212 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.11 ms.
-Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 176.6 MB.
-System memory in use after: 176.8 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4046.
-Total: 3.198800 ms (FindLiveObjects: 0.398900 ms CreateObjectMapping: 0.101900 ms MarkObjects: 2.669300 ms  DeleteObjects: 0.026800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005872 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.14 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\adria\Documents\Projects\MasterUtad\SolucionesVR_projects\scientificExperiment\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\adria\Documents\Projects\MasterUtad\SolucionesVR_projects\scientificExperiment\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.177 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.02 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.12 ms.
-Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 176.6 MB.
-System memory in use after: 176.8 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4050.
-Total: 3.494900 ms (FindLiveObjects: 0.494000 ms CreateObjectMapping: 0.155900 ms MarkObjects: 2.817600 ms  DeleteObjects: 0.025500 ms)
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3953.
+Total: 3.740600 ms (FindLiveObjects: 0.444300 ms CreateObjectMapping: 0.176200 ms MarkObjects: 3.020800 ms  DeleteObjects: 0.097600 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 56.817368 seconds.
-  path: Assets/_Project/Scripts/Elevator.cs
-  artifactKey: Guid(63bb0a9d376523b49b05527a2aac48ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Scripts/Elevator.cs using Guid(63bb0a9d376523b49b05527a2aac48ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66fb111bc44783c7bc3648c1ce1c00d2') in 0.008151 seconds
-  Import took 0.014616 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006291 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.96 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.17 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\adria\Documents\Projects\MasterUtad\SolucionesVR_projects\scientificExperiment\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\adria\Documents\Projects\MasterUtad\SolucionesVR_projects\scientificExperiment\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.210 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.90 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.12 ms.
-Unloading 3373 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 176.6 MB.
-System memory in use after: 176.8 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 4053.
-Total: 4.318600 ms (FindLiveObjects: 0.495300 ms CreateObjectMapping: 0.185700 ms MarkObjects: 3.607000 ms  DeleteObjects: 0.028600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010660 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.22 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.14 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\adria\Documents\Projects\MasterUtad\SolucionesVR_projects\scientificExperiment\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\adria\Documents\Projects\MasterUtad\SolucionesVR_projects\scientificExperiment\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.306 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.04 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.14 ms.
-Unloading 3373 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 176.6 MB.
-System memory in use after: 176.8 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4057.
-Total: 3.902700 ms (FindLiveObjects: 0.433800 ms CreateObjectMapping: 0.121000 ms MarkObjects: 3.322800 ms  DeleteObjects: 0.023600 ms)
+  path: Assets/_Project/Scenes/Laboratory/Lightmap-14_comp_light.exr
+  artifactKey: Guid(ab484bd4d83a90c4c9b8773862a63e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Scenes/Laboratory/Lightmap-14_comp_light.exr using Guid(ab484bd4d83a90c4c9b8773862a63e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cef218aa6127e470f3de06239dbbc718') in 0.096473 seconds
+  Import took 0.103259 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 282.338531 seconds.
-  path: Assets/_Project/Prefabs/XR Origin.prefab
-  artifactKey: Guid(bd948087576ec704995739fc4e8700f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Prefabs/XR Origin.prefab using Guid(bd948087576ec704995739fc4e8700f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d4c03d6abb1d16d5e01ab8ce4687b5e') in 0.248126 seconds
-  Import took 0.255628 seconds .
+  Time since last request: 0.000260 seconds.
+  path: Assets/_Project/Scenes/Laboratory/Lightmap-6_comp_dir.png
+  artifactKey: Guid(30e1bc8050a6b284787f2d41d74eda39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Scenes/Laboratory/Lightmap-6_comp_dir.png using Guid(30e1bc8050a6b284787f2d41d74eda39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '561934bc09a9e5fe47bf755c518285c0') in 0.027259 seconds
+  Import took 0.035577 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.995964 seconds.
-  path: Assets/_Project/Prefabs/Objects
-  artifactKey: Guid(7bdae479eeee1c64c9650fdc704c3274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Prefabs/Objects using Guid(7bdae479eeee1c64c9650fdc704c3274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db35488f462ff14c19a7c142622dc400') in 0.003591 seconds
-  Import took 0.010528 seconds .
+  Time since last request: 0.000351 seconds.
+  path: Assets/_Project/Scenes/Laboratory/Lightmap-11_comp_light.exr
+  artifactKey: Guid(2c824a2c74654f94396e44c99db31684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Scenes/Laboratory/Lightmap-11_comp_light.exr using Guid(2c824a2c74654f94396e44c99db31684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '028635730ca2ebb05e587af454ba8f46') in 0.017818 seconds
+  Import took 0.026587 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.055274 seconds.
-  path: Assets/_Project/Prefabs/Objects/ceilingLamp.prefab
-  artifactKey: Guid(89960cb64220df045b929e71d6e603be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Prefabs/Objects/ceilingLamp.prefab using Guid(89960cb64220df045b929e71d6e603be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc6d070d12a380772776b8f554453679') in 0.013877 seconds
-  Import took 0.020471 seconds .
+  Time since last request: 0.000421 seconds.
+  path: Assets/_Project/Scenes/Laboratory/Lightmap-0_comp_dir.png
+  artifactKey: Guid(d87cdbe72bea0984da655b01d16a8c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Scenes/Laboratory/Lightmap-0_comp_dir.png using Guid(d87cdbe72bea0984da655b01d16a8c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3f7aadd396852fd34eca53db54b8380') in 0.016815 seconds
+  Import took 0.026511 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/_Project/Prefabs/Objects/whiteBoard.fbx
-  artifactKey: Guid(9ad3a6422bd9d2340b9aa37dcd57534a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Prefabs/Objects/whiteBoard.fbx using Guid(9ad3a6422bd9d2340b9aa37dcd57534a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '276e99faadcd1480b7c7151abf45eafd') in 0.256897 seconds
-  Import took 0.263273 seconds .
+  Time since last request: 0.000282 seconds.
+  path: Assets/_Project/Scenes/Laboratory/Lightmap-5_comp_dir.png
+  artifactKey: Guid(e1c1fae6e455a32409548c47d2f51528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Scenes/Laboratory/Lightmap-5_comp_dir.png using Guid(e1c1fae6e455a32409548c47d2f51528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95add3f4e5e7d407fa1c91e3d71dcaf8') in 0.016455 seconds
+  Import took 0.025067 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/_Project/Prefabs/Objects/uploads_files_978378_CeilingLight_01.fbx
-  artifactKey: Guid(96053b2475f18054fb7253441826bec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Prefabs/Objects/uploads_files_978378_CeilingLight_01.fbx using Guid(96053b2475f18054fb7253441826bec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8369b8ad65208e4be5188ed3c2d1d2c') in 0.032135 seconds
-  Import took 0.038211 seconds .
+  Time since last request: 0.000298 seconds.
+  path: Assets/_Project/Scenes/Laboratory/Lightmap-9_comp_light.exr
+  artifactKey: Guid(c739fc7f62b911f47a0faf4903d40a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Scenes/Laboratory/Lightmap-9_comp_light.exr using Guid(c739fc7f62b911f47a0faf4903d40a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7469327eba9d993402963eacefc60ee') in 0.016759 seconds
+  Import took 0.024581 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000378 seconds.
-  path: Assets/_Project/Prefabs/Objects/whiteBoard.prefab
-  artifactKey: Guid(f26a1c23453ccaa4c97c5d6f23ae9acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Prefabs/Objects/whiteBoard.prefab using Guid(f26a1c23453ccaa4c97c5d6f23ae9acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '140ac8c399b2fb0cda3e8d3d7650fa4c') in 0.018132 seconds
-  Import took 0.026242 seconds .
+  Time since last request: 0.000280 seconds.
+  path: Assets/_Project/Scenes/Laboratory/Lightmap-10_comp_shadowmask.png
+  artifactKey: Guid(2f36ef5f55d35dc4b8ceab10d7a45a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Scenes/Laboratory/Lightmap-10_comp_shadowmask.png using Guid(2f36ef5f55d35dc4b8ceab10d7a45a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7af69490d9d1a47bcfa6b8743fab358a') in 0.018990 seconds
+  Import took 0.028279 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000294 seconds.
-  path: Assets/_Project/Prefabs/Objects/uploads_files_978378_CeilingLight_01.fbx
-  artifactKey: Guid(96053b2475f18054fb7253441826bec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Prefabs/Objects/uploads_files_978378_CeilingLight_01.fbx using Guid(96053b2475f18054fb7253441826bec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8369b8ad65208e4be5188ed3c2d1d2c') in 0.030455 seconds
-  Import took 0.037534 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.082849 seconds.
-  path: Assets/_Project/Prefabs/Interactables
-  artifactKey: Guid(9a996a7b90951f841ac8f6e44b0490c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Prefabs/Interactables using Guid(9a996a7b90951f841ac8f6e44b0490c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '774ad8d6fea59674676670375de9ce88') in 0.003316 seconds
-  Import took 0.010284 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.051083 seconds.
-  path: Assets/_Project/Prefabs/Interactables/Blower.prefab
-  artifactKey: Guid(7ad7a85173be6794795b4ceb81de1951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Prefabs/Interactables/Blower.prefab using Guid(7ad7a85173be6794795b4ceb81de1951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '860b6ceddaa269551890158a36afca3d') in 0.042149 seconds
-  Import took 0.048950 seconds .
+  Time since last request: 0.000345 seconds.
+  path: Assets/_Project/Scenes/Laboratory/Lightmap-1_comp_dir.png
+  artifactKey: Guid(e82a06a417cdece4d843651317e2dbf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Scenes/Laboratory/Lightmap-1_comp_dir.png using Guid(e82a06a417cdece4d843651317e2dbf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02c5ef7890e56578b3da25419efa190a') in 0.015407 seconds
+  Import took 0.022707 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000253 seconds.
-  path: Assets/_Project/Prefabs/Interactables/Kobalt Jobsite Blower.obj
-  artifactKey: Guid(982a3bbc350a3c84382e78684994b30c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Prefabs/Interactables/Kobalt Jobsite Blower.obj using Guid(982a3bbc350a3c84382e78684994b30c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2741e4122366a52056f4e95615ec02e3') in 0.057908 seconds
-  Import took 0.064379 seconds .
+  path: Assets/_Project/Scenes/Laboratory/Lightmap-3_comp_dir.png
+  artifactKey: Guid(ae7b94af2e5a3e9428f9225a55c076a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Scenes/Laboratory/Lightmap-3_comp_dir.png using Guid(ae7b94af2e5a3e9428f9225a55c076a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aae23b3ecd10fbd346a9ae353f508f8') in 0.016808 seconds
+  Import took 0.026248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/_Project/Scenes/Laboratory/Lightmap-8_comp_light.exr
+  artifactKey: Guid(91d76fccf60fcea4b82d4dd8e86bc51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Scenes/Laboratory/Lightmap-8_comp_light.exr using Guid(91d76fccf60fcea4b82d4dd8e86bc51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8da5596061583b33d9684a42ade69cc2') in 0.018435 seconds
+  Import took 0.028573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/_Project/Scenes/Laboratory/Lightmap-6_comp_light.exr
+  artifactKey: Guid(df0845a932ceb53459ce9697453f55a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Scenes/Laboratory/Lightmap-6_comp_light.exr using Guid(df0845a932ceb53459ce9697453f55a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fe29a29b3d5506e98018c11a2acdd36') in 0.017340 seconds
+  Import took 0.025066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/_Project/Scenes/Laboratory/Lightmap-19_comp_shadowmask.png
+  artifactKey: Guid(936f246837c6ada4dbc5c7ce5c0cbf87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Scenes/Laboratory/Lightmap-19_comp_shadowmask.png using Guid(936f246837c6ada4dbc5c7ce5c0cbf87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c5359a120978a8b858cb75deadc0c5b') in 0.018320 seconds
+  Import took 0.027131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/_Project/Scenes/Laboratory/Lightmap-7_comp_dir.png
+  artifactKey: Guid(f8be738d82fb36a4dafe95cd25f48b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Scenes/Laboratory/Lightmap-7_comp_dir.png using Guid(f8be738d82fb36a4dafe95cd25f48b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ab2541369d7277690439aeece761b21') in 0.015811 seconds
+  Import took 0.025527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/_Project/Scenes/Laboratory/Lightmap-13_comp_shadowmask.png
+  artifactKey: Guid(5bbf613b948fd3e4db6f37ac398ff4b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Scenes/Laboratory/Lightmap-13_comp_shadowmask.png using Guid(5bbf613b948fd3e4db6f37ac398ff4b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee8a9af967c5877e38c8c461e43fc328') in 0.015648 seconds
+  Import took 0.023462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/_Project/Scenes/Laboratory/Lightmap-2_comp_dir.png
+  artifactKey: Guid(78ac8b3647b9e2f48aa20b81e7279985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Scenes/Laboratory/Lightmap-2_comp_dir.png using Guid(78ac8b3647b9e2f48aa20b81e7279985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1651d5a040f32459129dbf18e3ac8ffe') in 0.017559 seconds
+  Import took 0.026817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/_Project/Scenes/Laboratory/Lightmap-7_comp_shadowmask.png
+  artifactKey: Guid(f1927cbae11845443944846b26b26ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Scenes/Laboratory/Lightmap-7_comp_shadowmask.png using Guid(f1927cbae11845443944846b26b26ba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a8c39ce50552ccf8d0d4f200fab36dd') in 0.017734 seconds
+  Import took 0.027466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/_Project/Scenes/Laboratory/Lightmap-12_comp_shadowmask.png
+  artifactKey: Guid(36290090b56d4e540984ee6277f78037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Scenes/Laboratory/Lightmap-12_comp_shadowmask.png using Guid(36290090b56d4e540984ee6277f78037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6a7336f28a01c63142f7206e9b0c5a9') in 0.017752 seconds
+  Import took 0.026775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/_Project/Scenes/Laboratory/Lightmap-14_comp_shadowmask.png
+  artifactKey: Guid(eec7e973275c28e44989d60786ac4a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Scenes/Laboratory/Lightmap-14_comp_shadowmask.png using Guid(eec7e973275c28e44989d60786ac4a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '439c25a8c5561b8010d2542ff8148a2e') in 0.018931 seconds
+  Import took 0.028246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/_Project/Scenes/Laboratory/Lightmap-18_comp_shadowmask.png
+  artifactKey: Guid(9fc374502a9e29143957555fcc15c3de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Scenes/Laboratory/Lightmap-18_comp_shadowmask.png using Guid(9fc374502a9e29143957555fcc15c3de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e4bd37c6be3f8c78f7c1c5d44a56139') in 0.018363 seconds
+  Import took 0.027314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/_Project/Scenes/Laboratory/Lightmap-4_comp_dir.png
+  artifactKey: Guid(23ac31cda676e80489a646e1f94e93c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Scenes/Laboratory/Lightmap-4_comp_dir.png using Guid(23ac31cda676e80489a646e1f94e93c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d03f2426c16a599049e913f375abe93') in 0.016828 seconds
+  Import took 0.024844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/_Project/Scenes/Laboratory/Lightmap-2_comp_shadowmask.png
+  artifactKey: Guid(3385668749f72d64685cdb332a3896ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Scenes/Laboratory/Lightmap-2_comp_shadowmask.png using Guid(3385668749f72d64685cdb332a3896ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d06bc9366c564f2eb8a4b77aa710856') in 0.015221 seconds
+  Import took 0.022913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/_Project/Scenes/Laboratory/Lightmap-15_comp_light.exr
+  artifactKey: Guid(34104561c9b745b408c73a0700b414e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Scenes/Laboratory/Lightmap-15_comp_light.exr using Guid(34104561c9b745b408c73a0700b414e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50a972aa04bbbbb6464a4db637803669') in 0.018919 seconds
+  Import took 0.029749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/_Project/Scenes/Laboratory/Lightmap-17_comp_shadowmask.png
+  artifactKey: Guid(e9ba14a698616dd4ebe21572c314f445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Scenes/Laboratory/Lightmap-17_comp_shadowmask.png using Guid(e9ba14a698616dd4ebe21572c314f445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b06b218b2bd290377e5c65222fba7d2') in 0.018601 seconds
+  Import took 0.029106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/_Project/Scenes/Laboratory/Lightmap-18_comp_light.exr
+  artifactKey: Guid(12f8e77d0e4fb7647850d0434aae5fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Scenes/Laboratory/Lightmap-18_comp_light.exr using Guid(12f8e77d0e4fb7647850d0434aae5fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '963274dc5ed9f11d21854716480f2091') in 0.017858 seconds
+  Import took 0.026267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/_Project/Scenes/Laboratory/Lightmap-3_comp_light.exr
+  artifactKey: Guid(646c3008259b220459811a973556c9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Scenes/Laboratory/Lightmap-3_comp_light.exr using Guid(646c3008259b220459811a973556c9d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84e76e6a48c8a8885e1d0062b65968da') in 0.016120 seconds
+  Import took 0.025344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/_Project/Scenes/Laboratory/Lightmap-4_comp_shadowmask.png
+  artifactKey: Guid(d9f9df5b18ebd1e45bee5db2f9c8a880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Scenes/Laboratory/Lightmap-4_comp_shadowmask.png using Guid(d9f9df5b18ebd1e45bee5db2f9c8a880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c490b3f8b04c9bfaee6e572c1f1138ce') in 0.019827 seconds
+  Import took 0.028392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/_Project/Scenes/Laboratory/Lightmap-8_comp_dir.png
+  artifactKey: Guid(250b7ec66ec20874e85999c0042d3e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Scenes/Laboratory/Lightmap-8_comp_dir.png using Guid(250b7ec66ec20874e85999c0042d3e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a1360e4e89a90bc648d09f23777831f') in 0.018138 seconds
+  Import took 0.026087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/_Project/Scenes/Laboratory/Lightmap-4_comp_light.exr
+  artifactKey: Guid(a535881455d467547b6c4db1108737fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Scenes/Laboratory/Lightmap-4_comp_light.exr using Guid(a535881455d467547b6c4db1108737fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a15b89817ed1effe1b8578ee96c4db25') in 0.017239 seconds
+  Import took 0.024891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/_Project/Scenes/Laboratory/Lightmap-8_comp_shadowmask.png
+  artifactKey: Guid(3cc2654a13c5f9e458ef6ceb0008dda5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Scenes/Laboratory/Lightmap-8_comp_shadowmask.png using Guid(3cc2654a13c5f9e458ef6ceb0008dda5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0346f3d3511691f6c14779a2781ac643') in 0.017171 seconds
+  Import took 0.026493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/_Project/Scenes/Laboratory/Lightmap-10_comp_light.exr
+  artifactKey: Guid(a30a075ae1c577841ac44a4d574819f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Scenes/Laboratory/Lightmap-10_comp_light.exr using Guid(a30a075ae1c577841ac44a4d574819f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae92bcb96d69e2a0119bba5df14d77ca') in 0.018073 seconds
+  Import took 0.028518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/_Project/Scenes/Laboratory/Lightmap-15_comp_shadowmask.png
+  artifactKey: Guid(bc029f8c732b2f542b35db5f81cede6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Scenes/Laboratory/Lightmap-15_comp_shadowmask.png using Guid(bc029f8c732b2f542b35db5f81cede6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '463a17de312403dba8ce7cf8428b5ddb') in 0.016558 seconds
+  Import took 0.024748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/_Project/Scenes/Laboratory/ReflectionProbe-0.exr
+  artifactKey: Guid(9b322562ed7f02640855f88b4f60d584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Scenes/Laboratory/ReflectionProbe-0.exr using Guid(9b322562ed7f02640855f88b4f60d584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04d4fc78e5fa00af9b7e26dafdeb7036') in 0.052389 seconds
+  Import took 0.061799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/_Project/Scenes/Laboratory/ReflectionProbe-1.exr
+  artifactKey: Guid(a54befb26f462a14680fa5c4f19ae372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Scenes/Laboratory/ReflectionProbe-1.exr using Guid(a54befb26f462a14680fa5c4f19ae372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '572aa87262b3cb161b25df7d16f07763') in 0.019553 seconds
+  Import took 0.027751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/_Project/Scenes/Laboratory/Lightmap-0_comp_light.exr
+  artifactKey: Guid(2e62b0e744b6f844fbc01c67df069dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Scenes/Laboratory/Lightmap-0_comp_light.exr using Guid(2e62b0e744b6f844fbc01c67df069dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd01ccbb48031a7be1a1d3fdf0f551c8') in 0.016462 seconds
+  Import took 0.026544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/_Project/Scenes/Laboratory/Lightmap-14_comp_dir.png
+  artifactKey: Guid(4b81fe5f834f7c541a4d6b1fb9158e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Scenes/Laboratory/Lightmap-14_comp_dir.png using Guid(4b81fe5f834f7c541a4d6b1fb9158e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26db98056829cdfcf1df5b8cfa5483dd') in 0.015921 seconds
+  Import took 0.023613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/_Project/Scenes/Laboratory/Lightmap-11_comp_shadowmask.png
+  artifactKey: Guid(24eebabb8ab860b489de33e426f7c473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Scenes/Laboratory/Lightmap-11_comp_shadowmask.png using Guid(24eebabb8ab860b489de33e426f7c473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf3a26ce756d1be735b8cadb8282934e') in 0.020131 seconds
+  Import took 0.029338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/_Project/Scenes/Laboratory/Lightmap-0_comp_shadowmask.png
+  artifactKey: Guid(a75c4669e722d8b4a9a1339a243b1a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Scenes/Laboratory/Lightmap-0_comp_shadowmask.png using Guid(a75c4669e722d8b4a9a1339a243b1a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cd1cc960efd311baf4831752f57ec5d') in 0.017481 seconds
+  Import took 0.026971 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/_Project/Scenes/Laboratory/Lightmap-2_comp_light.exr
+  artifactKey: Guid(f55249865a26d9a488b06f814cd68a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Scenes/Laboratory/Lightmap-2_comp_light.exr using Guid(f55249865a26d9a488b06f814cd68a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4821cb4725aaac299889a59e3c8262c8') in 0.016707 seconds
+  Import took 0.025046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/_Project/Scenes/Laboratory/Lightmap-5_comp_shadowmask.png
+  artifactKey: Guid(35412d09a022c234e9900d2ae745c18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Scenes/Laboratory/Lightmap-5_comp_shadowmask.png using Guid(35412d09a022c234e9900d2ae745c18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85a152b7f91be816c6d75c55e489e2aa') in 0.020018 seconds
+  Import took 0.029844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/_Project/Scenes/Laboratory/Lightmap-17_comp_dir.png
+  artifactKey: Guid(9d946bc0c27d2584da4e4f948cd54b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Scenes/Laboratory/Lightmap-17_comp_dir.png using Guid(9d946bc0c27d2584da4e4f948cd54b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50c1135a096ba42c98c5a3cba8d39232') in 0.016842 seconds
+  Import took 0.026275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/_Project/Scenes/Laboratory/Lightmap-1_comp_light.exr
+  artifactKey: Guid(6a614752a5da07f41b24c58322dbfff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Scenes/Laboratory/Lightmap-1_comp_light.exr using Guid(6a614752a5da07f41b24c58322dbfff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4b7f3c9efbae52d30f37ae0fb75eaf1') in 0.014824 seconds
+  Import took 0.023149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/_Project/Scenes/Laboratory/Lightmap-3_comp_shadowmask.png
+  artifactKey: Guid(8af389b33879bf64dbb31ddbc464dfbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Scenes/Laboratory/Lightmap-3_comp_shadowmask.png using Guid(8af389b33879bf64dbb31ddbc464dfbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c681448c3015b558d528b23184c8052c') in 0.017129 seconds
+  Import took 0.026042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/_Project/Scenes/Laboratory/Lightmap-11_comp_dir.png
+  artifactKey: Guid(7d1b4876a156eb64d99b9d43f5a124cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Scenes/Laboratory/Lightmap-11_comp_dir.png using Guid(7d1b4876a156eb64d99b9d43f5a124cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec955f0662d2a154aa53688f2337e558') in 0.015718 seconds
+  Import took 0.023487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/_Project/Scenes/Laboratory/Lightmap-5_comp_light.exr
+  artifactKey: Guid(55cb6eb19dbb5844fb6b3c30ec27e399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Scenes/Laboratory/Lightmap-5_comp_light.exr using Guid(55cb6eb19dbb5844fb6b3c30ec27e399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eef284a730034f9fa14ce7c179eb25e') in 0.017181 seconds
+  Import took 0.025003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/_Project/Scenes/Laboratory/Lightmap-6_comp_shadowmask.png
+  artifactKey: Guid(c3dd0c609e4d48c4a8436b92fba6c20e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Scenes/Laboratory/Lightmap-6_comp_shadowmask.png using Guid(c3dd0c609e4d48c4a8436b92fba6c20e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e0acfda784420d75108760d605e67b0') in 0.015580 seconds
+  Import took 0.023769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/_Project/Scenes/Laboratory/Lightmap-13_comp_light.exr
+  artifactKey: Guid(34a25f9370e55434e8522cc8a5a1afd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Scenes/Laboratory/Lightmap-13_comp_light.exr using Guid(34a25f9370e55434e8522cc8a5a1afd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1658581401e9d5047ebe7b5f9d6ebb0c') in 0.043446 seconds
+  Import took 0.052818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/_Project/Scenes/Laboratory/Lightmap-12_comp_light.exr
+  artifactKey: Guid(4c5b1118e36819b4dae033de78a43361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Scenes/Laboratory/Lightmap-12_comp_light.exr using Guid(4c5b1118e36819b4dae033de78a43361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6e552b44b7b7893851d9f99677fee18') in 0.016080 seconds
+  Import took 0.024632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/_Project/Scenes/Laboratory/Lightmap-9_comp_dir.png
+  artifactKey: Guid(4be65480d71a164448785e79577204e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Scenes/Laboratory/Lightmap-9_comp_dir.png using Guid(4be65480d71a164448785e79577204e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3275df03f9007854805b91a4200d71cb') in 0.015067 seconds
+  Import took 0.022989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/_Project/Scenes/Laboratory/Lightmap-9_comp_shadowmask.png
+  artifactKey: Guid(5bc009bacb02eb141814f11b62529115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Scenes/Laboratory/Lightmap-9_comp_shadowmask.png using Guid(5bc009bacb02eb141814f11b62529115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd95134c6e7e9d82c4350544e048ccbc7') in 0.017861 seconds
+  Import took 0.027600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/_Project/Scenes/Laboratory/Lightmap-19_comp_light.exr
+  artifactKey: Guid(83d0c3b780616914eaa1801238b71ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Scenes/Laboratory/Lightmap-19_comp_light.exr using Guid(83d0c3b780616914eaa1801238b71ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfe9d3ba2f3c22711b2e33a978851f51') in 0.017404 seconds
+  Import took 0.025532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/_Project/Scenes/Laboratory/Lightmap-15_comp_dir.png
+  artifactKey: Guid(59887a3a773369a4eb4ccccc8e76b646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Scenes/Laboratory/Lightmap-15_comp_dir.png using Guid(59887a3a773369a4eb4ccccc8e76b646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c55d944a34a4e553c661cdf9b8cf6164') in 0.015304 seconds
+  Import took 0.023457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/_Project/Scenes/Laboratory/Lightmap-18_comp_dir.png
+  artifactKey: Guid(be08c2276f5d9ad439e12df439d0fcea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Scenes/Laboratory/Lightmap-18_comp_dir.png using Guid(be08c2276f5d9ad439e12df439d0fcea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f5d7421113a5bc2d6edc8597b28f834') in 0.016080 seconds
+  Import took 0.023733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/_Project/Scenes/Laboratory/Lightmap-10_comp_dir.png
+  artifactKey: Guid(c52a2150117ad3d44a3e32bee8d6012f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Scenes/Laboratory/Lightmap-10_comp_dir.png using Guid(c52a2150117ad3d44a3e32bee8d6012f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '211c4b773acc98dd211efacbd4648927') in 0.018726 seconds
+  Import took 0.027855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/_Project/Scenes/Laboratory/Lightmap-13_comp_dir.png
+  artifactKey: Guid(896880e7aec7e1c44b24c7369b6dcfc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Scenes/Laboratory/Lightmap-13_comp_dir.png using Guid(896880e7aec7e1c44b24c7369b6dcfc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c74692dd0c36a0a0bd6d616da099533') in 0.016984 seconds
+  Import took 0.024940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/_Project/Scenes/Laboratory/Lightmap-16_comp_dir.png
+  artifactKey: Guid(4593beec9a1ea3d4d98399e24a943901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Scenes/Laboratory/Lightmap-16_comp_dir.png using Guid(4593beec9a1ea3d4d98399e24a943901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e957fd8a687f5d51b55db3fd598e0285') in 0.014484 seconds
+  Import took 0.023212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/_Project/Scenes/Laboratory/Lightmap-19_comp_dir.png
+  artifactKey: Guid(4d9cc75fedab4064993f8d59254cb85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Scenes/Laboratory/Lightmap-19_comp_dir.png using Guid(4d9cc75fedab4064993f8d59254cb85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '403f995b3337c160f8f857596cf47f3d') in 0.018539 seconds
+  Import took 0.026954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/_Project/Scenes/Laboratory/Lightmap-16_comp_light.exr
+  artifactKey: Guid(db4208bf281c1f249a5826472d97aee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Scenes/Laboratory/Lightmap-16_comp_light.exr using Guid(db4208bf281c1f249a5826472d97aee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfe2437cd0c4bcbb19dc905f3e40583a') in 0.016362 seconds
+  Import took 0.025886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/_Project/Scenes/Laboratory/Lightmap-7_comp_light.exr
+  artifactKey: Guid(e2e64eb9334e5e440af558e289c04f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Scenes/Laboratory/Lightmap-7_comp_light.exr using Guid(e2e64eb9334e5e440af558e289c04f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b69b8bc34e35f707a7ebf28fd1840f80') in 0.018946 seconds
+  Import took 0.027131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/_Project/Scenes/Laboratory/Lightmap-17_comp_light.exr
+  artifactKey: Guid(4069bffad31fc8646b8ca1317b46c06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Scenes/Laboratory/Lightmap-17_comp_light.exr using Guid(4069bffad31fc8646b8ca1317b46c06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35faed19ffe80636b9d20850a41378d0') in 0.019292 seconds
+  Import took 0.028567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/_Project/Scenes/Laboratory/LightingData.asset
+  artifactKey: Guid(4d79c1df0d51ab94c9af5222584e0049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Scenes/Laboratory/LightingData.asset using Guid(4d79c1df0d51ab94c9af5222584e0049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbedcdf37be53741f18dbdddb52c7c9f') in 0.011925 seconds
+  Import took 0.022104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/_Project/Scenes/Laboratory/Lightmap-12_comp_dir.png
+  artifactKey: Guid(982b640373287af4e8f60f429dba18ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Scenes/Laboratory/Lightmap-12_comp_dir.png using Guid(982b640373287af4e8f60f429dba18ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f9486ef7d8c998215588480903f595b') in 0.017287 seconds
+  Import took 0.026205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/_Project/Scenes/Laboratory/Lightmap-1_comp_shadowmask.png
+  artifactKey: Guid(e22c3b34ed72d5647a83c6e1297616d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Scenes/Laboratory/Lightmap-1_comp_shadowmask.png using Guid(e22c3b34ed72d5647a83c6e1297616d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d66133b68335cd10fcfa3dbf7b64e05') in 0.015703 seconds
+  Import took 0.024432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/_Project/Scenes/Laboratory/Lightmap-16_comp_shadowmask.png
+  artifactKey: Guid(75c171d515218124e849a1511532d9d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Scenes/Laboratory/Lightmap-16_comp_shadowmask.png using Guid(75c171d515218124e849a1511532d9d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb03fb1640ab9194e3d54839e7d92591') in 0.019329 seconds
+  Import took 0.028043 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
