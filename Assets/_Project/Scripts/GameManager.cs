@@ -33,7 +33,6 @@ public class GameManager : MonoBehaviour
 
     private void loadStage()
     {
-        Debug.Log("debug enter next round");
         DOTween.To(() => fadeToBlackVolume.weight, x => fadeToBlackVolume.weight = x, 1f, 1).OnComplete(() =>
         {
             transformPlayer.position = new Vector3(0,0,0);
