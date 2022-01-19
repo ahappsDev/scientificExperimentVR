@@ -4,8 +4,15 @@ using UnityEngine;
 
 public class nextStage : MonoBehaviour
 {
-    [SerializeField] private GameManager gameManager;
-    
+    private GameObject go;
+    private GameManager gameManager;
+
+    private void Awake()
+    {
+        go = GameObject.Find("GameManager");
+        gameManager = go.GetComponent<GameManager>();
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.GetComponent<Player>())

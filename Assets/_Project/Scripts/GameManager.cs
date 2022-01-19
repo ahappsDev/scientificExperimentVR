@@ -15,6 +15,7 @@ public class GameManager : MonoBehaviour
     private int currentStage = 1;
     [SerializeField] private Transform transformPlayer;
     [SerializeField] private Volume fadeToBlackVolume;
+    [SerializeField] private GameObject stage1, stage2, stage3;
 
     void Awake()
     {
@@ -23,7 +24,6 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
-       
     }
     public void nextStage()
     {
@@ -36,6 +36,12 @@ public class GameManager : MonoBehaviour
         DOTween.To(() => fadeToBlackVolume.weight, x => fadeToBlackVolume.weight = x, 1f, 1).OnComplete(() =>
         {
             transformPlayer.position = new Vector3(0,0,0);
+            if(currentStage==2)
+            {
+                stage1.SetActive(false);
+                stage2.SetActive(true);
+            }
+
             DOTween.To(() => fadeToBlackVolume.weight, x => fadeToBlackVolume.weight = x, 0f, 1);
         });
     }
