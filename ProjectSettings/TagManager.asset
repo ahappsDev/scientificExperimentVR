@@ -6,6 +6,8 @@ TagManager:
   tags:
   - ClimbInteractable
   - Orb
+  - Enemy
+  - Clock
   layers:
   - Default
   - TransparentFX

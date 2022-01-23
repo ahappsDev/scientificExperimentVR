@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class orbInstantiate : MonoBehaviour
 {
-    public GameObject orb, _parent;
+    public GameObject orb;
     private float minSpawnDistance = 0.0f;
     private float maxSpawnDistance = 4.5f;
     private Transform _transform;

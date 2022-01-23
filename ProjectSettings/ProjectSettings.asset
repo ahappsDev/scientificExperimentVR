@@ -151,7 +151,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
     Android: com.DefaultCompany.ScientificExperiment
-    Standalone: com.DefaultCompany.DesarrolloVRUtad
+    Standalone: com.DefaultCompany.ScientificExperiment
   buildNumber:
     Standalone: 0
     iPhone: 0
@@ -431,7 +431,9 @@ PlayerSettings:
     Android: 1
     iPhone: 1
     tvOS: 1
-  m_BuildTargetGroupLightmapEncodingQuality: []
+  m_BuildTargetGroupLightmapEncodingQuality:
+  - m_BuildTarget: Android
+    m_EncodingQuality: 1
   m_BuildTargetGroupLightmapSettings: []
   m_BuildTargetNormalMapEncoding: []
   playModeTestRunnerEnabled: 0

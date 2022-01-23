@@ -8,10 +8,17 @@ public class openDoor : MonoBehaviour
     public Transform transformObject;
     public float height;
     public float timeTranslation;
+    private AudioSource soundEffect;
+
+    private void Awake()
+    {
+        soundEffect = GetComponent<AudioSource>();
+    }
 
     // Update is called once per frame
     public void open()
     {
         transformObject.DOLocalMoveY(transformObject.position.y + height, timeTranslation);
+        soundEffect.Play();
     }
 }

@@ -25,4 +25,9 @@ public class Elevator : MonoBehaviour
             transformObject.DOLocalMoveY(intPosition, timeTranslation);
         }
     }
+
+    public void setHeight(float _height)
+    {
+        height = _height;
+    }
 }
