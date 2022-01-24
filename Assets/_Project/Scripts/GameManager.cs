@@ -20,6 +20,7 @@ public class GameManager : MonoBehaviour
     private string board3 = "Stage 3 - Hardness \n \n This test will test the toughness of the user. \n \n To do this, using the sword, you will have to kill the robot to end the experiment.";
 
     private int currentStage = 1;
+    private string bestScore;
     private GameObject orb;
     [SerializeField] private Transform transformPlayer;
     [SerializeField] private Volume fadeToBlackVolume;
@@ -31,6 +32,7 @@ public class GameManager : MonoBehaviour
     private void Awake()
     {
         clocks = GameObject.FindGameObjectsWithTag("Clock");
+        bestScore = PlayerPrefs.GetString("bestScore", "--:--");
     }
     private void Update()
     {
@@ -63,13 +65,11 @@ public class GameManager : MonoBehaviour
     public void nextStage(int _stage)
     {
         currentStage = _stage;
-        Debug.Log("hola");
         StartCoroutine(loadStage()); ;
     }
 
     public IEnumerator loadStage()
     {
-        Debug.Log("hola");
         //Teleport to init ecene
         DOTween.To(() => fadeToBlackVolume.weight, x => fadeToBlackVolume.weight = x, 1f, 1).OnComplete(() =>
         {
@@ -112,6 +112,21 @@ public class GameManager : MonoBehaviour
         // Restart
         if (currentStage == 4)
         {
+            PlayerPrefs.SetString("lastScore", textClock.text);
+            string[] timeStrings = textClock.text.Split(':');
+            string[] timeBestStrings = bestScore.Split(':');
+            if (bestScore == "--:--")
+                PlayerPrefs.SetString("bestScore", textClock.text);
+            else
+            {
+                if(Int16.Parse(timeStrings[0]) < Int16.Parse(timeBestStrings[0]))
+                    PlayerPrefs.SetString("bestScore", textClock.text);
+                else
+                    if ((Int16.Parse(timeStrings[0]) == Int16.Parse(timeBestStrings[0])) && Int16.Parse(timeStrings[1]) < Int16.Parse(timeBestStrings[1]))
+                    {
+                        PlayerPrefs.SetString("bestScore", textClock.text);
+                    }
+            }
             SceneManager.LoadScene("Menu");
         }
         yield return new WaitForSeconds(.1f);
