@@ -14,8 +14,6 @@ public class openDoor : MonoBehaviour
     {
         soundEffect = GetComponent<AudioSource>();
     }
-
-    // Update is called once per frame
     public void open()
     {
         transformObject.DOLocalMoveY(transformObject.position.y + height, timeTranslation);

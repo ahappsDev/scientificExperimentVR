@@ -4,7 +4,7 @@ using UnityEngine;
 public class Sand : MonoBehaviour
 {
     //Blower Transform
-    public Transform attachBlower;
+    [SerializeField] private Transform attachBlower;
 
     //blowing speed
     private float vBloxMax = 0.01f;

@@ -3,9 +3,9 @@ using UnityEngine;
 
 public class Elevator : MonoBehaviour
 {
-    public Transform transformObject;
-    public float height, intPosition;
-    public float timeTranslation;
+    [SerializeField] private Transform transformObject;
+    [SerializeField] private float height, intPosition;
+    [SerializeField] private float timeTranslation;
 
     public void Awake()
     {

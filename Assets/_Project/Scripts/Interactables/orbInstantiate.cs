@@ -4,19 +4,16 @@ using UnityEngine;
 
 public class orbInstantiate : MonoBehaviour
 {
-    public GameObject orb;
+    [SerializeField] private GameObject orb;
     private float minSpawnDistance = 0.0f;
     private float maxSpawnDistance = 4.5f;
     private Transform _transform;
 
-    // Start is called before the first frame update
     void Awake()
     {
         _transform = gameObject.GetComponent<Transform>();
-        //_transform = gameObject.GetComponent<GameObject>();
     }
 
-    // Update is called once per frame
     void Start()
     {
         var randomOffset = Random.insideUnitSphere;
